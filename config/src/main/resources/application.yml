@@ -1,0 +1,12 @@
+info:
+  component: Config Samples1
+endpoints:
+  restart:
+    enabled: true
+logging:
+  levels:
+    org.springframework.boot.env.PropertySourcesLoader: TRACE
+    org.springframework.web: DEBUG
+management:
+  security:
+    enabled: false
